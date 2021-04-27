@@ -1,0 +1,163 @@
+html {
+    background: black;
+}
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    max-width: 860px;
+    min-width: 360px;
+    min-height: 600px;
+    margin: 0px auto;
+    background: #F8F8F8;
+    padding:0px 5px;
+    text-align:center;
+    position: relative;
+    height: 100%;
+}
+ 
+.page-title  {
+    font-size:120%;
+    text-align: left;
+    margin:10px 0px;
+    color: #87CEFA;
+    font-weight: bold;
+}
+.nav-item{
+	color:#87CEFA;
+}
+.header-container {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    background: #5f5f5f;
+    color: white;
+}
+.header-container .header-bar  {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+.header-container .header-bar  a  {
+    color: white;
+    font-size: bold;
+}
+ 
+.footer-container {
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 0px 0px 0px;
+    /* border-top: 1px solid #ccc; */
+    position: fixed;
+  	bottom: 0;
+  	display: inline;
+  	color:white
+}
+.menu-container {
+    text-align: right;
+    margin: 10px 5px;
+}
+.menu-container a {
+    margin: 1px 1px 1px 10px;
+    /* color: #004d99; */
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+.site-name {
+    font-size:170%;
+    margin:10px 10px 10px 0px;
+    padding: 5px;
+    font-family:cursive; 
+}
+ 
+.container  {
+    margin: 100px 0px;
+    color:#87CEFA;
+}
+ 
+.demo-container, .login-container, .account-container {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align:left;
+    margin:20px 0px;
+    color:white;
+}
+ 
+.customer-info-container {
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 0px 5px;
+    color:white;
+}
+.product-preview-container {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 250px;
+    margin: 10px ;
+    display: inline-block;
+    text-align:left;
+    background: #5f5f5f;
+    color: white;
+}
+ 
+.product-preview-container input {
+    width: 50px;
+}
+ 
+ 
+.product-image {
+    width: 120px;
+    height: 80px;
+}
+ 
+ul {
+    list-style-type: none;
+    padding-left: 5px;
+    margin:5px;
+}
+ 
+ 
+.navi-item {
+    margin: 5px 5px 5px 20px;
+    color:#87CEFA;
+}
+ 
+.button-update-sc {
+    color: red;
+    margin: 5px 5px 5px 20px;
+}
+ 
+.button-send-sc {
+    color: red;
+    margin: 5px 5px 5px 20px;
+}
+ 
+.error-message {
+    font-size: 90%;
+    color: #FFCC5F;
+    font-style: italic;
+    font-weight: bold;
+}
+ 
+.price {
+    color:#87CEFA;
+    font-weight: bold;
+}
+ 
+.subtotal {
+    color: #87CEFA;
+    font-weight: bold;
+}
+ 
+.total {
+    color: #87CEFA;
+    font-weight: bold;
+    font-size: 120%;
+}
+ 
+table td {
+    padding: 5px;
+}
